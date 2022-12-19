@@ -1,0 +1,401 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #0c0c0c;
+    text-align: justify;
+    font-size: 16px;
+}
+
+li {
+    margin: 1.9% 0;
+    list-style: none;
+}
+
+p {
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.container {
+    margin: 5% 8.5%;
+}
+
+/*---------------NAVIGATION-----------------*/
+nav {
+    width: auto;
+    height: 45px;
+    color: White;
+    background-color: #0e0e0e;
+    box-shadow: 0 10px 20px #7954A1;
+    margin: 0;
+    padding-top: 1.6%;
+    padding-left: 39%;
+}
+
+.nav-hom {
+    width: auto;
+    height: 45px;
+    color: White;
+    background-color: transparent;
+    margin: 0;
+    padding-top: 1.6%;
+    padding-left: 38%;
+    box-shadow: none;
+    font-size: 1.15em;
+}
+
+/*--------------LINKS------------------*/
+a {
+    color: #88B2CC;
+    text-decoration: none;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.a-nav {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1%;
+    margin-top: 0;
+}
+
+a:hover {
+    color: #7954A1;
+}
+
+/*---------------HEDER-----------------*/
+.heder {
+    background-image: url("../assets/media/heder.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    box-shadow: 0 10px 20px #7954A1;
+}
+
+.heder-resume {
+    width: auto;
+    height: auto;
+}
+
+/*--------------FOOTER------------------*/
+.footer-home {
+    width: auto;
+    height: auto;
+    color: White;
+    background-color: #0e0e0e;
+    box-shadow: 0 -10px 20px #7954A1;
+    margin-top: 30%;
+    padding-top: 1.6%;
+    padding-left: 37%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.footer-per {
+    width: auto;
+    height: auto;
+    color: White;
+    background-color: #0e0e0e;
+    box-shadow: 0 -10px 20px #7954A1;
+    margin-top: 55%;
+    padding-top: 1.6%;
+    padding-left: 37%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.footer-edu {
+    width: auto;
+    height: auto;
+    color: White;
+    background-color: #0e0e0e;
+    box-shadow: 0 -10px 20px #7954A1;
+    margin-top: 60%;
+    padding-top: 1.6%;
+    padding-left: 37%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.footer-res {
+    width: auto;
+    height: auto;
+    color: White;
+    background-color: #0e0e0e;
+    box-shadow: 0 -10px 20px #7954A1;
+    margin-top: 83%;
+    padding-top: 1.6%;
+    padding-left: 37%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.socials {
+    margin-right: 60%;
+}
+
+.copy {
+    margin-left: 8%;
+    color: rgb(182, 182, 182);
+}
+
+/*--------------INDEX------------------*/
+.personal-img {
+    float: right;
+    border-radius: 100%;
+    margin-top: 10%;
+    margin-right: 15%;
+    box-shadow: 10px 10px 35px #7954A1;
+}
+
+.h1-name {
+    color: #7954A1;
+    border-right: 3px solid;
+    width: 16ch;
+    overflow: hidden;
+    font-size: 4em;
+    margin: 15% 0% 2% 15%;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.h2-name {
+    color: white;
+    margin: 2% 0 5% 25%;
+    font-size: 2em;
+}
+
+.html-ind {
+    width: 300px;
+    float: left;
+}
+
+.res-ind {
+    width: 300px;
+    float: right;
+}
+
+.cod-ind {
+    width: 300px;
+    float: right;
+    margin-right: 12%;
+}
+
+.ind {
+    text-align: center;
+    color: #0e0e0e;
+}
+
+.h2-ind {
+    text-align: center;
+    color: #7954A1;
+}
+
+/*----------------RESUME----------------*/
+.h2-resume {
+    color: #7954A1;
+}
+
+.i-name {
+    color: #7954A1;
+    margin: 2% 0 0 10%;
+}
+
+.i-resume {
+    font-size: 13px;
+    color: #7954A1;
+    padding: 2%;
+}
+
+.left-bar {
+    max-width: 1400px;
+    margin: 2% 0;
+    width: 50%;
+    float: left;
+}
+
+.right-bar {
+    max-width: 1400px;
+    margin: -2.7% 0;
+    width: 30%;
+    float: right;
+}
+.button-res{
+    padding: 4%;
+    border: #88B2CC 2px solid;  
+    box-shadow: 2px 2px 15px #7954a18f;
+    transform: translateY(4px);
+}
+.button-res:hover{
+    border: #7954A1 2px solid;
+}
+.soft {
+    margin-left: -10%;
+}
+
+.lang {
+    margin-left: -10%;
+}
+/*----------------Start Skills----------------*/
+/*skills bar use from https://www.makeuseof.com/css-progress-bar-examples/*/
+.skill {
+    margin-bottom: 5%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 2px;
+    background: #7954A1;
+}
+
+.skill-bar span {
+    border-top: 5px solid #7954A1;
+    top: -25px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    position: absolute;
+}
+
+.skill-bar {
+    position: relative;
+}
+
+.skill1 .skill-count1 {
+    font-size: 13px;
+    right: 0;
+}
+
+.skill1 {
+    width: 95%;
+}
+
+.skill2 {
+    width: 85%;
+}
+
+.skill3 {
+    width: 75%;
+}
+
+.skill4 {
+    width: 65%;
+}
+
+.skill5 {
+    width: 60%;
+}
+
+.skill6 {
+    width: 60%;
+}
+
+.skill2 .skill-count2 {
+    font-size: 13px;
+    right: 0;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+    font-size: 13px;
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+    font-size: 13px;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+    font-size: 13px;
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+    font-size: 13px;
+}
+
+
+/*---------EDUCATION--------*/
+.left-edu {
+    height: 350px;
+    width: 45%;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 2%;
+    margin-left: 0;
+
+}
+
+.right-edu {
+    height: 350px;
+    width: 45%;
+    float: right;
+    margin-top: -5%;
+    margin-bottom: 2%;
+    margin-right: 0;
+
+}
+
+.ext {
+    float: right;
+    margin-left: -7%;
+    color: #7954A1;
+}
+
+.edu-left {
+    margin-top: 5%;
+}
+
+.text {
+    margin-top: -1%;
+}
+
+.text2 {
+    margin-top: 3%;
+}
+
+/*-------------PERSONAL--------------*/
+.left-per {
+    width: 300px;
+    float: left;
+    padding-right: 5%;
+    border-right: 2px solid #7954A1;
+}
+
+.right-per {
+    width: 300px;
+    float: right;
+    margin-top: -45.8%;
+    padding-left: 5%;
+    border-left: 2px solid #7954A1;
+}
+
+.mid-per {
+    width: 300px;
+    float: right;
+    margin-right: 37%;
+    margin-top: 7%;
+}

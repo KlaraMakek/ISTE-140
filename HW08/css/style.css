@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f9;
+    margin: 0 25% 0 25%; /*the margins so it looks like example picture*/
+    font-size: 1em;
+}
+
+h1 {
+    font-weight: bold;
+    color: #115742;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.6em;
+}
+
+a {
+    color: #2c8067;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(225, 223, 237);
+}
+
+a:hover {
+    color: #80bcff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #691359;
+}
+
+figure {
+    float: right;
+    margin: -25% 0 0 2%; /*the margins so it looks like example picture*/
+    text-align: left;
+    padding: 2% 0;
+
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.image_me {
+    border: black 3px solid;
+}

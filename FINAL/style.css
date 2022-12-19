@@ -1,0 +1,120 @@
+* {
+    margin:0;
+
+}
+body{
+    background-image: url("behind.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.box {
+    height: auto;
+    margin: 2px;
+}
+
+.box1 {
+    grid-area: header;
+    background-color: rebeccapurple;
+}
+
+.box1>h1 {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box2 {
+    grid-area: nav;
+    background-color: saddlebrown;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.box3 {
+    grid-area: side-one;
+    background-color: aqua;
+}
+
+.box4 {
+    grid-area: side-two;
+    background-color: beige;
+}
+.box4>img{
+    width: 100%;
+}
+.box5 {
+    grid-area: content;
+    background-color: gainsboro;
+}
+
+.box6 {
+    grid-area: footer;
+    background-color: firebrick;
+}
+.box6>embed{
+    width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 350px auto;
+    grid-template-areas:
+        'header header'
+        'nav nav'
+        'side-one content '
+        'side-two content '
+        'footer footer';
+    grid-gap: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 800px;
+        grid-template-areas:
+            'header'
+            'nav'
+            'side-one'
+            'content'
+            'side-two'
+            'footer';
+        grid-gap: 2px;
+    }
+    .box6>embed{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        display: grid;
+        grid-template-columns: 250px auto auto;
+        grid-template-areas:
+            'header header header'
+            'nav nav nav'
+            'side-one content side-two'
+            'footer footer footer';
+        grid-gap: 2px;
+    }
+    .box6>embed{
+        width: 100%;
+    }
+
+}

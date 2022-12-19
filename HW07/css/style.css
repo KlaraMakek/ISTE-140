@@ -1,0 +1,63 @@
+body {
+    /*font for the site*/
+    font-family: "Trebuchet MS", Tahoma, Verdana;
+    font-size: 15px;
+    /*margins -body*/
+    margin-left: 10%;
+    margin-right: 10%;
+    /*padding -body*/
+    padding-left: 1em;
+    padding-right: 1em;
+    /*border -moz-backface-visibility: ;body*/
+    border: 1px solid gray;
+}
+
+/*
+* main heder
+*/
+h1 {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+/*
+* list
+*/
+li {
+    padding-bottom: 7px;
+}
+
+/*
+*for the ingredients list
+*/
+.ingredients {
+    width: 250px;
+    padding: 15px 120px 15px 10px;
+    background-color: lightgoldenrodyellow;
+    list-style-type: circle;
+    list-style-position: inside;
+
+}
+
+/*
+* for the picture
+*/
+figure {
+    float: right;
+    clear: both;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/*
+*for the yellow text
+*/
+.important {
+    font-size: 110%;
+    color: red;
+    background-color: yellow;
+}
